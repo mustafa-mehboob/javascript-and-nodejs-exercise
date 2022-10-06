@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let manufacturer1 = "Honde";
+        let color1 = "Blue";
+        let model1 = "Civic";
+        function car(manufacturer, color1, model1) {
+            car_obj = {
+                manufacturer : manufacturer1,
+                color : color1,
+                model : model1
+            }
+            console.log(`
+            Manufacturer by ${car_obj.manufacturer}
+            Color : ${car_obj.color}
+            Model : ${car_obj.model}
+            `);
+        }
+        car(manufacturer1, color1, model1);
+        manufacturer1 = "Toyota";
+        color1 = "Red";
+        model1 = "Revo";
+        car(manufacturer1, color1, model1);
+
+    </script>
+</body>
+</html>

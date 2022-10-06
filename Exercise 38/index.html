@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let cities = "Karachi";
+        let country;
+        function describe_city(cities, country = "Pakistan") {
+            console.log(`
+            ${cities} is in ${country}
+            `);
+        }
+        describe_city(cities, country);
+        cities = "Lahore";
+        describe_city(cities, country);
+        cities = "London";
+        country = "UK"
+        describe_city(cities, country);
+    </script>
+</body>
+</html>

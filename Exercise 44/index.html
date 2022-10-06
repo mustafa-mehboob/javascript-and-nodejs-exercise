@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let items = ["Coco", "Milo", "Honey"];
+        function sandwich(items) {
+            console.log("Making you Sandwing");
+            for (let i = 0; i < items.length; i++) {
+                const element = items[i];
+                console.log(`adding ${element} in your Sandwish`);
+            }
+            console.log("Your sandwish is ready");
+        }
+        sandwich(items)
+        items = ["Milk"]
+        sandwich(items)
+
+    </script>
+</body>
+</html>

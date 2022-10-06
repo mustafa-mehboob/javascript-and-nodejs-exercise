@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        let current_users = ["Mustafa", "Osama", "Ali"];
+        let new_users = ["Ahmed", "Ali", "Salman", "Osama", "Ahsan"];
+                
+        if (!current_users.length) {
+            console.log("We need some users");
+        }
+
+        for (let i = 0; i < new_users.length; i++) {
+            const element = new_users[i];
+        
+            for (let j = 0; j < current_users.length; j++) {
+                const element2 = current_users[j];
+                if (element === element2) {
+                console.log(element, `alredy exist add new username`);
+            } 
+            }       
+
+        }
+    </script>
+</body>
+</html>

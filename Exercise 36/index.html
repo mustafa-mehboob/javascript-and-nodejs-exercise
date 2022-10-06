@@ -9,12 +9,15 @@
 <body>
     
     <script>
-        let current_users = [];
-                
-        if (!current_users.length) {
-            console.log("We need some users");
+        let size = 9;
+        let message = "Hello World";
+        function make_shirt(size, message) {
+            console.log(`
+            Size of T-shirt is ${size}
+            Message in T-shirt is ${message}
+            `);
         }
-
+        make_shirt(size, message);
     </script>
 </body>
 </html>

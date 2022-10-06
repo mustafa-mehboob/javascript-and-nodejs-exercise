@@ -9,12 +9,14 @@
 <body>
     
     <script>
-        let current_users = [];
-                
-        if (!current_users.length) {
-            console.log("We need some users");
+        let magicians = ["Shahrukh Zaroor", "Ejaz Mughal", "M.Yaseen"];
+        function show_magicians() {
+            for (let i = 0; i < magicians.length; i++) {
+                const element = magicians[i];
+                console.log(element);
+            }
         }
-
+        show_magicians();
     </script>
 </body>
 </html>
